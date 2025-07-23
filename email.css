@@ -1,0 +1,36 @@
+#email {
+    padding: 50px;
+    margin-top: 50px;
+    width: 500px;
+    border: solid 3px black;
+}
+#confidential {
+    display: inline-block;/*to give it the charateristic of block*/
+    padding: 5px;
+    margin-left: 300px;/*it shift the content to where you want it to be*/
+    border: solid 3px red;
+    color:black;
+    text-transform: uppercase;
+    transform: rotate(20deg);/*it enable it to rotate*/
+}
+#top-secret {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 300px;/*it shift the content to where you want it to be*/
+    border: solid 3px red;
+    color:black;
+    text-transform: uppercase;
+    transform: rotate(20deg);
+}
+*body 
+{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+p {
+    text-transform: lowercase;
+}
+.blurred {
+
+    filter: blur(3px);
+}
