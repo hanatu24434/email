@@ -3,6 +3,7 @@
     margin-top: 50px;
     width: 500px;
     border: solid 3px black;
+    margin-left: 100px;
 }
 #confidential {
     display: inline-block;/*to give it the charateristic of block*/
